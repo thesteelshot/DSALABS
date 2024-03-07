@@ -1,4 +1,4 @@
-#include<stdio.h> #include<conio.h> #include<process.h>
+#include<stdio.h>
 
 int ch,max,item,top=-1,s[20]; void menu(void);
 
@@ -6,11 +6,10 @@ void push(int); int pop(void); void display(void); void main()
 
 {
 
-clrscr();
 
 printf("ENTER STACK SIZE:"); scanf("%d",&max); menu();
 
-getch();
+
 
 }
 
